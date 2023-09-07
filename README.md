@@ -8,6 +8,7 @@ return cadena === resultado;
 
 }
 
+
 1.1 Discutir y concluir:
 
 ¿Qué hace el método?
