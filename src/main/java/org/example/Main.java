@@ -6,7 +6,8 @@ public class Main {
         System.out.println("Hello world!");
         System.out.println("Amo a melito");
 
-        System.out.println(esPalindromo("osos"));
+        System.out.println(esPalindromo("Oso"));
+        System.out.println(esPalindromo2("Oso"));
     }
 
     public static boolean esPalindromo(String cadena) {
@@ -17,7 +18,11 @@ public class Main {
             reverso[i-1]=separada[largo-i];
         }
         String resultado = new String(reverso);
-        return resultado.equals(cadena);
+        return resultado.equalsIgnoreCase(cadena);
+    }
+    public static boolean esPalindromo2(String cadena) {
+        StringBuilder builder = new StringBuilder(cadena);
+        return builder.reverse().toString().equalsIgnoreCase(cadena);
     }
 
 }
