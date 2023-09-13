@@ -24,3 +24,5 @@ invertidas son unidas con la función "join('')" y se actualiza "resultado" reto
 Se puede utilizar para verificar si una palabra es un palíndromo o no
 
 Dé al menos un ejemplo de su uso (sin codificar nada).
+Se pueden comprobar que palabras como reconocer, somos, seres, ama, entre muchas otras, sin importar
+si las letras son mayúsculas y/o minúsculas, son Palíndromos o no
