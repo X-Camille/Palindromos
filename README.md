@@ -1,11 +1,7 @@
 function esPalindromo(cadena) {
-
-let resultado = "";
-
-resultado = cadena.split('').reverse().join('');
-
-return cadena === resultado;
-
+  let resultado = "";
+  resultado = cadena.split('').reverse().join('');
+  return cadena === resultado;
 }
 
 
